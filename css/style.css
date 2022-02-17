@@ -2000,7 +2000,8 @@ p {
   border: 0;
   color: black;
   transition: 0.15s opacity ease-out;
-  display: inline-block;
+  /* display: inline-block; */
+  display: none;
 }
 .btn-cart svg {
   width: 26px;
@@ -2216,15 +2217,9 @@ span#cartCount {
         padding-left: 5px;
       }
 .section_footer .payment-icons li .icon {
-        width: 120px;
-        height: 100px
+        width: 30px;
+        height: 30px
       }
-@media (min-width: 36rem) {
-.section_footer .payment-icons li .icon {
-          width: 30px;
-          height: 30px
-      }
-        }
 .section_footer .payment-icons li .icon path {
           fill: hsl(39, 43%, 66%);
           fill: var(--primary);
